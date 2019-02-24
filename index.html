@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAPe7AAD/1wAAwe8AAP/XAAD3uwAA//8AAP//AAD3/wAA9/8AAMGDAAD3/wAA9/8AAP//AAD//wAA" rel="icon" type="image/x-icon" />
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Roboto+Mono" rel="stylesheet">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    </head>
+    <body>
+        <div class="heading-wrapper">
+            <h1 class="calc-heading robotomono">Calculator</h1>
+            <hr>
+            <br>
+        </div>
+        <div class="calculator-wrapper ">
+            <form>
+                <input type="number" name="num1" id="num1" placeholder=" Number 1">
+                <input type="number" name="num2" id="num2" placeholder= " Number 2">
+                <select name="operation" id="operation" required>
+                    <option name="add">Add</option>
+                    <option name="subtract">Subtract</option>
+                    <option name="multiply">Multiply</option>
+                    <option name="divide">Divide</option>
+                </select>
+                <button type="reset" id="reset" name="reset" value="reset">Reset</button>
+            </form>
+            <p class="result">result: <i id="result"></i></p>
+        </div>
+        <p class="me indie-flower">made with <i class="fas fa-heart heart"></i> by Bhumanyu Goyal </p>
+        <script src="script.js"></script>
+    </body>
+</html>
